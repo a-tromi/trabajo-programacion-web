@@ -1,0 +1,85 @@
+.div-juego {
+    text-align: center;
+    font: condensed 100% sans-serif;
+}
+
+/*Estilos para el cuerpo*/
+.categoria-terror {
+    background-image: url("/imagenes/juegosdeterror.gif");
+    background-size: cover; 
+    background-position: center; 
+}
+
+.categoria-accion {
+    background-image: url("/imagenes/gif-accion.webp");
+    background-size: cover; 
+    background-position: center; 
+}
+
+.categoria-free-to-play {
+    background-image: url("/imagenes/warframe.gif");
+    background-size: cover; 
+    background-position: center; 
+}
+
+/*Estilos para contenedor interno*/
+.contenedor {
+    align-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(rgb(139, 31, 31), rgb(14, 12, 119));
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*Estilos para contenedor externo*/
+.contenedor2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+    background: linear-gradient(black, grey);
+    padding: 30px;
+    padding-top: 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 220px;
+}
+
+/*Estilos para boton comprar*/
+.comprar {
+    width: auto;
+    height: auto;
+    padding: auto;
+    border-radius: 8px;
+}
+
+/*Estilos para las imagenes*/
+.imagenes {
+    width:250px ;
+    height: 250px;
+    border-radius: 10px;
+}
+
+/*Estilos de letras*/
+.resaltar {
+    color: #2e0a0a;
+    border-color: darkblue; 
+    font-size: 24px; 
+    font-weight: bold; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.precios {
+    color: #851b1b;
+    border-color: darkblue; 
+    font-size: 24px; 
+    font-weight: bold; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
