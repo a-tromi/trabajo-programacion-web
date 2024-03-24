@@ -1,0 +1,224 @@
+/*Estilos para los html*/
+.estilo_accion{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 0; 
+    padding: 0;
+    background-color: rgb(55, 173, 55); 
+    background-image: url('/imagenes/gif-accion.webp');
+    background-size: cover; 
+    background-position: center; 
+}
+
+.estilo_carreras{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 0; 
+    padding: 0;
+    background-color: rgb(55, 173, 55); 
+    background-image: url('/imagenes/carrerasgif.webp');
+    background-size: cover; 
+    background-position: center; 
+}
+
+.estilo_categorias{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 0; 
+    padding: 0;
+    background-color: rgb(55, 173, 55); 
+    background-image: url('/imagenes/warzone.webp');
+    background-size: cover; 
+    background-position: center; 
+}
+
+.estilo_ftp{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 0; 
+    padding: 0;
+    background-color: rgb(55, 173, 55); 
+    background-image: url('/imagenes/warframe.gif');
+    background-size: cover; 
+    background-position: center; 
+}
+
+.estilo_juegosterror{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 0; 
+    padding: 0;
+    background-color: rgb(55, 173, 55); 
+    background-image: url('/imagenes/juegosdeterror.gif');
+    background-size: cover; 
+    background-position: center; 
+}
+
+.estilo_loguin{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 0; 
+    padding: 0;
+    background-color: rgb(55, 173, 55); 
+    background-image: url('/imagenes/relax2.gif');
+    background-size: cover; 
+    background-position: center; 
+}
+
+.estilo_mundoabierto{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 0; 
+    padding: 0;
+    background-color: rgb(55, 173, 55); 
+    background-image: url('/imagenes/the-witcher.webp');
+    background-size: cover; 
+    background-position: center; 
+}
+
+.estilo_paginap{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 0; 
+    padding: 0;
+    background-color: rgb(55, 173, 55); 
+    background-image: url('/imagenes/horizon-zero.gif');
+    background-size: cover; 
+    background-position: center; 
+}
+
+.estilo_registro{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 0; 
+    padding: 0;
+    background-color: rgb(55, 173, 55); 
+    background-image: url('/imagenes/relax2.gif');
+    background-size: cover; 
+    background-position: center; 
+}
+
+.estilo_supervivencia{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 0; 
+    padding: 0;
+    background-color: rgb(55, 173, 55); 
+    background-image: url('/imagenes/ark.gif');
+    background-size: cover; 
+    background-position: center; 
+}
+
+/*Estilos containers formularios*/
+.container_form {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: 20%;
+    background: linear-gradient(rgb(145, 140, 77), rgb(148, 75, 75));
+    padding: 3%;
+    padding-top: 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 220px;
+}
+
+/*Media query para ajustar estilos en pantallas mas pequeñas */
+@media screen and (max-width: 1350px) {
+    .container_form {
+        width: auto;
+        height: auto;
+        align-items: center;
+        font-display: flex;
+        display: flex;
+        flex-direction: row;
+        background: linear-gradient(rgb(145, 140, 77), rgb(148, 75, 75));
+        padding: 3%;
+        padding-top: 70px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 220px; 
+    }
+}
+
+/*Estilos para contenedor interno*/
+.contenedor {
+    align-content: center;
+    align-items: center;
+    margin: 20px;
+    width: auto;
+    height: auto;
+    background: linear-gradient(rgb(139, 31, 31), rgb(14, 12, 119));
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*Estilos para contenedor externo*/
+.contenedor2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    height: auto;
+    background: linear-gradient(black, grey);
+    padding: 3%;
+    padding-top: 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 220px;
+    margin-bottom: auto;
+}
+
+/*Estilos para boton comprar*/
+.comprar {
+    width: auto;
+    height: auto;
+    padding: auto;
+    border-radius: 8px;
+}
+
+/*Estilos para las imagenes*/
+.imagenes {
+
+    width:250px ;
+    height: 250px;
+    border-radius: 10px;
+}
+
+/*Estilo para formulario*/
+form{
+    width: auto;
+    height: auto;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+/*Estilo para letra formulario*/
+.l_form {
+   font-size: 80%;
+   font-weight: bold;
+}
+
+/*Estilos para tabla*/
+table {
+    width: 50%;
+}
