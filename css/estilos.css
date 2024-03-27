@@ -6,7 +6,7 @@
     margin: 0; 
     padding: 0;
     background-color: rgb(55, 173, 55); 
-    background-image: url('/imagenes/gif-accion.webp');
+    background-image: url('../imagenes/gif-accion.webp');
     background-size: cover; 
     background-position: center; 
 }
@@ -18,7 +18,7 @@
     margin: 0; 
     padding: 0;
     background-color: rgb(55, 173, 55); 
-    background-image: url('/imagenes/carrerasgif.webp');
+    background-image: url('../imagenes/carrerasgif.webp');
     background-size: cover; 
     background-position: center; 
 }
@@ -30,7 +30,7 @@
     margin: 0; 
     padding: 0;
     background-color: rgb(55, 173, 55); 
-    background-image: url('/imagenes/warzone.webp');
+    background-image: url('../imagenes/warzone.webp');
     background-size: cover; 
     background-position: center; 
 }
@@ -42,7 +42,7 @@
     margin: 0; 
     padding: 0;
     background-color: rgb(55, 173, 55); 
-    background-image: url('/imagenes/warframe.gif');
+    background-image: url('../imagenes/warframe.gif');
     background-size: cover; 
     background-position: center; 
 }
@@ -54,21 +54,19 @@
     margin: 0; 
     padding: 0;
     background-color: rgb(55, 173, 55); 
-    background-image: url('/imagenes/juegosdeterror.gif');
+    background-image: url('../imagenes/juegosdeterror.gif');
     background-size: cover; 
     background-position: center; 
 }
 
 .estilo_loguin{
     display: flex;
-    align-content: center;
+    justify-content: center;
     align-items: center;
-    margin: 0; 
-    padding: 0;
-    background-color: rgb(55, 173, 55); 
-    background-image: url('/imagenes/relax2.gif');
-    background-size: cover; 
-    background-position: center; 
+    min-height: 100vh;
+    background-image: url('../imagenes/relax2.gif');
+    background-size: cover;
+    background-position: center;
 }
 
 .estilo_mundoabierto{
@@ -78,7 +76,7 @@
     margin: 0; 
     padding: 0;
     background-color: rgb(55, 173, 55); 
-    background-image: url('/imagenes/the-witcher.webp');
+    background-image: url('../imagenes/horizon-zero.gif');
     background-size: cover; 
     background-position: center; 
 }
@@ -90,7 +88,7 @@
     margin: 0; 
     padding: 0;
     background-color: rgb(55, 173, 55); 
-    background-image: url('/imagenes/horizon-zero.gif');
+    background-image: url('../imagenes/horizon-zero.gif');
     background-size: cover; 
     background-position: center; 
 }
@@ -102,7 +100,7 @@
     margin: 0; 
     padding: 0;
     background-color: rgb(55, 173, 55); 
-    background-image: url('/imagenes/relax2.gif');
+    background-image: url('../imagenes/relax2.gif');
     background-size: cover; 
     background-position: center; 
 }
@@ -114,46 +112,55 @@
     margin: 0; 
     padding: 0;
     background-color: rgb(55, 173, 55); 
-    background-image: url('/imagenes/ark.gif');
+    background-image: url('../imagenes/ark.gif');
     background-size: cover; 
     background-position: center; 
 }
 
 /*Estilos containers formularios*/
 .container_form {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    width: 20%;
-    height: 20%;
-    background: linear-gradient(rgb(145, 140, 77), rgb(148, 75, 75));
-    padding: 3%;
-    padding-top: 70px;
+    width: 580px;
+    height: 630px;
+    background: transparent;
+    border:2px solid rgb(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 220px;
+    padding: 30px 40px;
 }
 
-/*Media query para ajustar estilos en pantallas mas pequeñas */
-@media screen and (max-width: 1350px) {
-    .container_form {
-        width: auto;
-        height: auto;
-        align-items: center;
-        font-display: flex;
-        display: flex;
-        flex-direction: row;
-        background: linear-gradient(rgb(145, 140, 77), rgb(148, 75, 75));
-        padding: 3%;
-        padding-top: 70px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 220px; 
-    }
+.container_form h1{
+    font-size: 36px;
+    text-align: center;
+    padding: 0px 0px 40px 0px;
+}
+
+.container_form .in_box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.in_box input{
+    width: 100%;
+    height: 40%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    padding: 20px 45px 20px 20px;
+    font-size: 16px;
+    color: #fff;
+
+}
+
+.in_box input::placeholder{
+    color: #fff;
 }
 
 /*Estilos para contenedor interno*/
@@ -174,9 +181,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 80%;
+    width: 380px;
     height: auto;
-    background: linear-gradient(black, grey);
+    background: linear-gradient(black, grey) transparent;
     padding: 3%;
     padding-top: 70px;
     border-radius: 10px;
@@ -203,22 +210,89 @@
     border-radius: 10px;
 }
 
-/*Estilo para formulario*/
-form{
-    width: auto;
-    height: auto;
-    align-items: center;
-    align-content: center;
-    align-self: center;
+/*Estilos para el encabezado*/
+header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+    position: fixed; 
+    width: 100%; 
+    top: 0; 
 }
 
-/*Estilo para letra formulario*/
-.l_form {
-   font-size: 80%;
-   font-weight: bold;
+/* Estilos para los elementos del menu */
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-/*Estilos para tabla*/
-table {
-    width: 50%;
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilo para el menú desplegable */
+header ul ul {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+header ul ul li {
+    display: block;
+}
+
+header ul li:hover ul {
+    display: block;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color:#333;
+    color: #170442;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #000000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/*Estilos de letras*/
+.resaltar {
+    color: #2e0a0a;
+    border-color: darkblue; 
+    font-size: 24px; 
+    font-weight: bold; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.precios {
+    color: #851b1b;
+    border-color: darkblue; 
+    font-size: 24px; 
+    font-weight: bold; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
