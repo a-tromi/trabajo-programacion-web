@@ -22,6 +22,24 @@
     background-position: center; 
 }
 
+.categoria-carreras {
+    background-image: url("/imagenes/carrerasgif.webp");
+    background-size: cover; 
+    background-position: center; 
+}
+
+.categoria-supervivencia {
+    background-image: url("/imagenes/ark.gif");
+    background-size: cover; 
+    background-position: center;
+}
+
+.categoria-mundo-abierto {
+    background-image: url("/imagenes/horizon-zero.gif");
+    background-size: cover; 
+    background-position: center;
+}
+
 /*Estilos para contenedor interno*/
 .contenedor {
     align-content: center;
