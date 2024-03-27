@@ -6,7 +6,11 @@
     margin: 0; 
     padding: 0;
     background-color: rgb(55, 173, 55); 
+<<<<<<< HEAD
     background-image: url('../imagenes/gif-accion.webp');
+=======
+    background-image: url('/imagenes/gif-accion.webp');
+>>>>>>> c99c1dd4bf25b6a334b30eb6773bb8917a473055
     background-size: cover; 
     background-position: center; 
 }
@@ -18,7 +22,11 @@
     margin: 0; 
     padding: 0;
     background-color: rgb(55, 173, 55); 
+<<<<<<< HEAD
     background-image: url('../imagenes/carrerasgif.webp');
+=======
+    background-image: url('/imagenes/carrerasgif.webp');
+>>>>>>> c99c1dd4bf25b6a334b30eb6773bb8917a473055
     background-size: cover; 
     background-position: center; 
 }
@@ -30,7 +38,11 @@
     margin: 0; 
     padding: 0;
     background-color: rgb(55, 173, 55); 
+<<<<<<< HEAD
     background-image: url('../imagenes/warzone.webp');
+=======
+    background-image: url('/imagenes/warzone.webp');
+>>>>>>> c99c1dd4bf25b6a334b30eb6773bb8917a473055
     background-size: cover; 
     background-position: center; 
 }
@@ -42,7 +54,11 @@
     margin: 0; 
     padding: 0;
     background-color: rgb(55, 173, 55); 
+<<<<<<< HEAD
     background-image: url('../imagenes/warframe.gif');
+=======
+    background-image: url('/imagenes/warframe.gif');
+>>>>>>> c99c1dd4bf25b6a334b30eb6773bb8917a473055
     background-size: cover; 
     background-position: center; 
 }
@@ -54,19 +70,34 @@
     margin: 0; 
     padding: 0;
     background-color: rgb(55, 173, 55); 
+<<<<<<< HEAD
     background-image: url('../imagenes/juegosdeterror.gif');
+=======
+    background-image: url('/imagenes/juegosdeterror.gif');
+>>>>>>> c99c1dd4bf25b6a334b30eb6773bb8917a473055
     background-size: cover; 
     background-position: center; 
 }
 
 .estilo_loguin{
     display: flex;
+<<<<<<< HEAD
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-image: url('../imagenes/relax2.gif');
     background-size: cover;
     background-position: center;
+=======
+    align-content: center;
+    align-items: center;
+    margin: 0; 
+    padding: 0;
+    background-color: rgb(55, 173, 55); 
+    background-image: url('/imagenes/relax2.gif');
+    background-size: cover; 
+    background-position: center; 
+>>>>>>> c99c1dd4bf25b6a334b30eb6773bb8917a473055
 }
 
 .estilo_mundoabierto{
@@ -76,7 +107,11 @@
     margin: 0; 
     padding: 0;
     background-color: rgb(55, 173, 55); 
+<<<<<<< HEAD
     background-image: url('../imagenes/horizon-zero.gif');
+=======
+    background-image: url('/imagenes/the-witcher.webp');
+>>>>>>> c99c1dd4bf25b6a334b30eb6773bb8917a473055
     background-size: cover; 
     background-position: center; 
 }
@@ -88,7 +123,11 @@
     margin: 0; 
     padding: 0;
     background-color: rgb(55, 173, 55); 
+<<<<<<< HEAD
     background-image: url('../imagenes/horizon-zero.gif');
+=======
+    background-image: url('/imagenes/horizon-zero.gif');
+>>>>>>> c99c1dd4bf25b6a334b30eb6773bb8917a473055
     background-size: cover; 
     background-position: center; 
 }
@@ -100,7 +139,11 @@
     margin: 0; 
     padding: 0;
     background-color: rgb(55, 173, 55); 
+<<<<<<< HEAD
     background-image: url('../imagenes/relax2.gif');
+=======
+    background-image: url('/imagenes/relax2.gif');
+>>>>>>> c99c1dd4bf25b6a334b30eb6773bb8917a473055
     background-size: cover; 
     background-position: center; 
 }
@@ -112,13 +155,18 @@
     margin: 0; 
     padding: 0;
     background-color: rgb(55, 173, 55); 
+<<<<<<< HEAD
     background-image: url('../imagenes/ark.gif');
+=======
+    background-image: url('/imagenes/ark.gif');
+>>>>>>> c99c1dd4bf25b6a334b30eb6773bb8917a473055
     background-size: cover; 
     background-position: center; 
 }
 
 /*Estilos containers formularios*/
 .container_form {
+<<<<<<< HEAD
     width: 580px;
     height: auto;
     background: transparent;
@@ -161,6 +209,41 @@
 
 .in_box input::placeholder{
     color: #fff;
+=======
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: 20%;
+    background: linear-gradient(rgb(145, 140, 77), rgb(148, 75, 75));
+    padding: 3%;
+    padding-top: 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 220px;
+}
+
+/*Media query para ajustar estilos en pantallas mas pequeñas */
+@media screen and (max-width: 1350px) {
+    .container_form {
+        width: auto;
+        height: auto;
+        align-items: center;
+        font-display: flex;
+        display: flex;
+        flex-direction: row;
+        background: linear-gradient(rgb(145, 140, 77), rgb(148, 75, 75));
+        padding: 3%;
+        padding-top: 70px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 220px; 
+    }
+>>>>>>> c99c1dd4bf25b6a334b30eb6773bb8917a473055
 }
 
 /*Estilos para contenedor interno*/
@@ -181,9 +264,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+<<<<<<< HEAD
     width: 380px;
     height: auto;
     background: linear-gradient(black, grey) transparent;
+=======
+    width: 80%;
+    height: auto;
+    background: linear-gradient(black, grey);
+>>>>>>> c99c1dd4bf25b6a334b30eb6773bb8917a473055
     padding: 3%;
     padding-top: 70px;
     border-radius: 10px;
@@ -210,6 +299,7 @@
     border-radius: 10px;
 }
 
+<<<<<<< HEAD
 /*Estilos para el encabezado*/
 header {
     background-color: #333; 
@@ -296,3 +386,24 @@ footer a:hover {
     font-weight: bold; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+=======
+/*Estilo para formulario*/
+form{
+    width: auto;
+    height: auto;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+/*Estilo para letra formulario*/
+.l_form {
+   font-size: 80%;
+   font-weight: bold;
+}
+
+/*Estilos para tabla*/
+table {
+    width: 50%;
+}
+>>>>>>> c99c1dd4bf25b6a334b30eb6773bb8917a473055
